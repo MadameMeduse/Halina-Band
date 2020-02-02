@@ -1,6 +1,6 @@
 ## Demo
 
-[https://slider-dogs.herokuapp.com/](https://slider-dogs.herokuapp.com/)
+[](in progress)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
