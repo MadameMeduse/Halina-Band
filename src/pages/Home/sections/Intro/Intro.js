@@ -2,18 +2,18 @@ import React from "react";
 import * as Section from "components/PageSection";
 import IntroImg from "./assets/IntroBackground.png";
 import { IntroImage } from "components/IntroImage";
-import { Header } from "./styles";
+import { Header, IntroWrapper } from "./styles";
 
 export const Intro = () => (
-  <Section.Wrapper>
+  <IntroWrapper>
     <Section.Content>
       <IntroImage src={IntroImg} />
       <Header>
-        <Section.Title>Witaj w Halina Band</Section.Title>
+        <Section.Title>Witaj w </Section.Title>
         <Section.Description>
-          Halina Band to zespół, który powstał z przyjaźni i dla przyjaźni.
+          Zespół, który powstał z przyjaźni i dla przyjaźni.
         </Section.Description>
       </Header>
     </Section.Content>
-  </Section.Wrapper>
+  </IntroWrapper>
 );

@@ -23,7 +23,7 @@ export const BulletedList = styled.ul`
 export const Content = styled.div`
   margin: 0 auto;
   padding: 4rem 0;
-  background: ${({ theme }) => theme.color.primary};
+  background: ${({ theme }) => theme.color.white};
   position: relative;
   top: 1rem;
 `;
@@ -66,12 +66,12 @@ export const Header = styled.div`
 `;
 
 export const Wrapper = styled.div`
-  background: ${({ theme }) => theme.color.primary};
+  background: ${({ theme }) => theme.color.white};
   display: flex;
   justify-content: center;
   align-items: center;
 
   &:nth-child(even) {
-    background: ${({ theme }) => theme.color.primary};
+    background: ${({ theme }) => theme.color.white};
   }
 `;

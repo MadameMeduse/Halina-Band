@@ -4,7 +4,8 @@ export const theme = {
     primary: "#fadbcd",
     linkWater: "#f8fafd",
     shuttleGray: "#5f6369",
-    white: "#ffffff"
+    white: "#ffffff",
+    lightblue: "#6a80c5"
   },
   font: {
     size: {
@@ -36,6 +37,6 @@ export const theme = {
     element: "0px 10px 26px -9px rgba(0, 0, 0, 0.75)"
   },
   border: {
-    inputborder: "solid 2px rgb(166, 166, 166)"
+    inputborder: "solid 2px #6a80c5"
   }
 };

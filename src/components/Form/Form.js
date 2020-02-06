@@ -1,5 +1,6 @@
 import React from "react";
-import { FormWrapper, Label, Input, FormTitle, Button } from "./styles";
+import { FormWrapper, Label, Input, FormTitle } from "./styles";
+import { Button } from "../Button/styles";
 import axios from "axios";
 
 class Form extends React.Component {

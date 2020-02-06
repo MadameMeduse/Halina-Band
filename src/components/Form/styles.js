@@ -5,18 +5,18 @@ export const FormWrapper = styled.div`
   width: 30vw;
   flex-direction: column;
   align-items: center;
-  background: white;
+  background: ${({ theme }) => theme.color.primary};
   margin: 3.4em auto;
   box-shadow: ${({ theme }) => theme.shadow.element};
   padding: 2em 0;
   border-radius: 5px;
-  color: ${({ theme }) => theme.color.shuttleGray};
+  color: ${({ theme }) => theme.color.black};
 
   select {
     padding: 1em;
     height: 2em;
     margin-top: 1em;
-    background: transparent;
+    background: ${({ theme }) => theme.color.white};
     border: ${({ theme }) => theme.border.inputborder};
     color: ${({ theme }) => theme.color.shuttleGray};
   }
@@ -42,22 +42,4 @@ export const Input = styled.input`
   padding: 1em;
   border-radius: 5px;
   border: ${({ theme }) => theme.border.inputborder};
-`;
-
-export const Button = styled.button`
-  align-text: center;
-  margin: 1em auto;
-  padding: 0.5em 0.2em;
-  width: 9em;
-  background: white;
-  font-size: ${({ theme }) => theme.font.size.md};
-  border: ${({ theme }) => theme.border.inputborder};
-  &:hover {
-    background: ${({ theme }) => theme.color.primary};
-    cursor: pointer;
-    box-shadow: ${({ theme }) => theme.shadow.element};
-    transform: scale(1.05);
-    transition: all ease-in-out 0.2s 0.1s;
-    border: ${({ theme }) => theme.border.inputborder};
-  }
 `;
